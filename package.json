@@ -1,0 +1,29 @@
+{
+  "name": "recettes-du-clos-joie",
+  "private": true,
+  "type": "module",
+  "author": "Manon Carbonnel",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "biome check .",
+    "format": "biome format --write",
+    "test:a11y": "playwright test",
+    "test:lighthouse": "lhci autorun"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.14.0",
+    "better-sqlite3": "^12.11.1",
+    "nuxt": "^4.4.8",
+    "vue": "^3.5.35",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.12.1",
+    "@biomejs/biome": "2.5.2",
+    "@lhci/cli": "0.15.1",
+    "@playwright/test": "1.61.1"
+  }
+}
